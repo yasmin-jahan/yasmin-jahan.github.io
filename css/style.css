@@ -207,7 +207,9 @@ a {
     flex-wrap: wrap;
     /* column-gap: 132px; */
 }
-
+.top_header_login_btn  {
+    justify-content: center;
+}
 .main_nav_item {
     /* padding: 4px 0 0 15px; */
 
@@ -283,7 +285,7 @@ a {
     height: 3px;
     background: #f15a22;
     position: absolute;
-    bottom: -6px;
+    bottom: 3px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -337,10 +339,6 @@ a {
     height: 100%;
     background-color: #0000006e;
     position: absolute;
-    /* top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0; */
     inset: 0;
     z-index: -1;
 }
@@ -597,7 +595,10 @@ a {
     height: 100%;
 
 }
-
+.cart_section_item .section_img{
+    max-width: 317px;
+    height: 174px;
+}
 .section_img img {
     width: 100%;
     height: 100%;
@@ -797,7 +798,15 @@ a {
     font-weight: 300;
     font-family: 'Futural Light';
 }
-
+.banner_panel  .banner_img{
+max-width: 772px;
+height: 668px;
+object-fit: cover;
+}
+.banner_panel  .banner_img img{
+    width: 100%;
+    height: 100%;
+}
 .banner_text p {
 
     font-size: 20px;
@@ -950,11 +959,15 @@ a {
     /* background-position: left -10% top 2%; */
     background-size: cover;
 }
+.banner_image{
+    max-width: 770px;
+    height: 668px;
+}
 
 .banner_image img {
     height: 100%;
     width: 100%;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 .banner_section .set:last-child a {
@@ -1304,19 +1317,20 @@ a {
 }
 
 .notice_section_area {
-    max-width: 273px;
+    /* max-width: 273px; */
     height: 273px;
 }
 
 .notice_section_area img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .notice_banner {
     position: relative;
     background: #ffffff;
-    /* max-width: 273px; */
+    max-width: 273px;
 }
 
 .notice_content_area {
@@ -1994,7 +2008,8 @@ padding-top: 65px;
 .newsletter_area {
     position: relative;
     margin-bottom: -50px;
-    padding: 19px 0;
+    padding: 20px 15px;
+    /* padding-left: 15px; */
     z-index: 2;
     background-image: url(../img/n.png);
     background-repeat: no-repeat;
@@ -2004,8 +2019,8 @@ padding-top: 65px;
 
 
 .newsletter_content {
-    display: block;
-    align-items: center;
+    /* display: block;
+    align-items: center; */
     text-align: start;
     padding-left: 45px;
 }
@@ -2016,7 +2031,8 @@ padding-top: 65px;
     line-height: 1.2;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-bottom: 18px;
     font-weight: 300;
     font-family: "Futural Light";
 }
@@ -2027,11 +2043,11 @@ padding-top: 65px;
 
 .newsletter_content p {
     font-size: 24px;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     line-height: 1px;
     color: #ffffff;
     padding-bottom: 8px;
-    margin-top: 18px;
+    /* margin-top: 18px; */
     font-family: "Futural Light";
 }
 
